@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  apiKey: "AIzaSyCr4KKgcwzNNkJ_TjqLIU2Z4vYLG26vwgk",
+  authDomain: "codeforge-69a01.firebaseapp.com",
+  projectId: "codeforge-69a01",
+  storageBucket: "codeforge-69a01.appspot.com",
+  messagingSenderId: "308815094605",
+  appId: "1:308815094605:web:d545df2ad9d2515b910d04",
 };
 
 const app = !getApps.length ? initializeApp(firebaseConfig) : getApp();
