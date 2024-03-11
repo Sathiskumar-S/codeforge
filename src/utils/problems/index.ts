@@ -8,7 +8,7 @@ import { containerwithmostwater } from "./container-with-most-water";
 import { mergeintervals } from "./merge-intervals";
 import {maximumdepthofbinarytree} from "./maximum-depth-of-binary-tree" ;
 import {besttimetobuyandsellstock} from "./best-time-to-buy-and-sell-stock";
-
+import { subset } from "./subset";
 
 interface ProblemMap {
 	[key: string]: Problem;
@@ -24,4 +24,5 @@ export const problems: ProblemMap = {
 	"merge-intervals": mergeintervals,
 	"maximum-depth-of-binary-tree": maximumdepthofbinarytree,
 	"best-time-to-buy-and-sell-stocks": besttimetobuyandsellstock,
+	"subset": subset,
 };
