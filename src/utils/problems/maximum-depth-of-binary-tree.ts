@@ -1,7 +1,7 @@
 import assert from "assert";
 import { Problem } from "../types/problem";
 
-const starterCodeMaximumDepthofbinarytree = `function maximumdepthofbinarytree(nums,target){
+const starterCodeMaximumDepthofbinarytree = `function maximumdepthofbinarytree(root){
   // Write your code here
 };`;
 
