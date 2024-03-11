@@ -73,7 +73,7 @@ export const problems : Problem[] = [
         videoId: "",
     },
     {
-        id: "best-time-to-buy-and-sell-stock",
+        id: "best-time-to-but-and-sell-stock",
         title: "Best Time to Buy and Sell Stock",
         difficulty: "Easy",
         category: "Array",
