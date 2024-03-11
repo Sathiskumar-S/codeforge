@@ -37,7 +37,7 @@ const handlerMaximumDepthofbinarytree = (fn: any) => {
 	}
 };
 
-export const MaximumDepthofbinarytree: Problem = {
+export const maximumdepthofbinarytree: Problem = {
 	id: "maximum-depth-of-binary-tree",
 	title: "8. Maximum Depth of Binary Tree",
 	problemStatement: `<p class='mt-3'>
