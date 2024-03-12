@@ -9,6 +9,8 @@ import { mergeintervals } from "./merge-intervals";
 import {maximumdepthofbinarytree} from "./maximum-depth-of-binary-tree" ;
 import {besttimetobuyandsellstock} from "./best-time-to-buy-and-sell-stock";
 import { subset } from "./subsets";
+import { minimumelement } from "./minimum-element";
+import { negative } from "./first-negative-integer";
 
 interface ProblemMap {
 	[key: string]: Problem;
@@ -25,4 +27,7 @@ export const problems: ProblemMap = {
 	"maximum-depth-of-binary-tree": maximumdepthofbinarytree,
 	"best-time-to-buy-and-sell-stocks": besttimetobuyandsellstock,
 	"subsets": subset,
+	"minimum-element": minimumelement,
+	"first-negative-integer": negative
+
 };
