@@ -11,6 +11,8 @@ import {besttimetobuyandsellstock} from "./best-time-to-buy-and-sell-stock";
 import { subset } from "./subsets";
 import { minimumelement } from "./minimum-element";
 import { negative } from "./first-negative-integer";
+import { triangle } from "./area-of-triangle";
+import { composite } from "./composite";
 
 interface ProblemMap {
 	[key: string]: Problem;
@@ -28,6 +30,8 @@ export const problems: ProblemMap = {
 	"best-time-to-buy-and-sell-stocks": besttimetobuyandsellstock,
 	"subsets": subset,
 	"minimum-element": minimumelement,
-	"first-negative-integer": negative
+	"first-negative-integer": negative,
+	"area-of-triangle": triangle,
+	"composite": composite
 
 };
