@@ -60,11 +60,9 @@ export const negative: Problem = {
 	],
 	constraints: `<li class='mt-2'>
   <code>1 <= nums.length <= 10</code>
-</li> <li class='mt-2'>
-<code>-10 <= nums[i] <= 10</code>
-</li>
+</li> 
 <li class='mt-2 text-sm'>
-<strong> The solution set must not contain duplicate subsets.</strong>
+<strong> The solution set maybe contain duplicate subsets.</strong>
 </li>`,
 	handlerFunction: handlerNegative,
 	starterCode: starterNegative,
