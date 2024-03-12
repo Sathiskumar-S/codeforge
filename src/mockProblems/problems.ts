@@ -87,5 +87,37 @@ export const problems : Problem[] = [
         category: "Backtracking",
         order: 10,
         videoId: "",
+    },
+    {
+        id: "minimum-element",
+        title: "MinimumElement Without Sorting",
+        difficulty: "Medium",
+        category: "Backtracking",
+        order: 11,
+        videoId: "",
+    },
+    {
+        id: "first-negative-integer",
+        title: "First negative integer",
+        difficulty: "Medium",
+        category: "Backtracking",
+        order: 12,
+        videoId: "",
+    },
+    {
+        id: "area-of-triangle",
+        title: "Area of Triangle",
+        difficulty: "Easy",
+        category: "Backtracking",
+        order: 13,
+        videoId: "",
+    },
+    {
+        id: "composite",
+        title: "Composite",
+        difficulty: "Easy",
+        category: "Backtracking",
+        order: 14,
+        videoId: "",
     }
 ]
