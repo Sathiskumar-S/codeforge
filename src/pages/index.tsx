@@ -1,12 +1,23 @@
 import ProblemsTable from "@/components/ProblemsTable/ProblemsTable";
 import Topbar from "@/components/Topbar/Topbar";
+import { auth } from "@/firebase/firebase";
 import useHasMounted from "@/hooks/useHasMounted";
+import { useRouter } from "next/router";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 export default function Home() {
 	const [loadingProblems, setLoadingProblems] = useState(true);
 	const hasMounted = useHasMounted();
+	const [ user, loading, error] = useAuthState(auth);
+	const router = useRouter();
+
+	useEffect(() => {
+		if (!user) {
+			router.push('/auth');
+		}
+	}, []);
 
 	if (!hasMounted) return null;
 
