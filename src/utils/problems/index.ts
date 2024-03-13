@@ -13,6 +13,7 @@ import { minimumelement } from "./minimum-element";
 import { negative } from "./first-negative-integer";
 import { triangle } from "./area-of-triangle";
 import { composite } from "./composite";
+import { betweennumber } from "./between-number";
 
 interface ProblemMap {
 	[key: string]: Problem;
@@ -32,6 +33,7 @@ export const problems: ProblemMap = {
 	"minimum-element": minimumelement,
 	"first-negative-integer": negative,
 	"area-of-triangle": triangle,
-	"composite": composite
+	"composite": composite,
+	"between-number": betweennumber
 
 };

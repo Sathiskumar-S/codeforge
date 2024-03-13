@@ -84,7 +84,7 @@ export const problems : Problem[] = [
         id: "subsets",
         title: "Subsets",
         difficulty: "Medium",
-        category: "Backtracking",
+        category: "Array",
         order: 10,
         videoId: "",
     },
@@ -108,7 +108,7 @@ export const problems : Problem[] = [
         id: "area-of-triangle",
         title: "Area of Triangle",
         difficulty: "Easy",
-        category: "Backtracking",
+        category: "Number",
         order: 13,
         videoId: "",
     },
@@ -116,8 +116,17 @@ export const problems : Problem[] = [
         id: "composite",
         title: "Composite",
         difficulty: "Easy",
-        category: "Backtracking",
+        category: "Number",
         order: 14,
         videoId: "",
-    }
+    },
+    {
+        id: "between-number",
+        title: "Between Number",
+        difficulty: "Easy",
+        category: "Number",
+        order: 15,
+        videoId: "",
+    },
+
 ]
