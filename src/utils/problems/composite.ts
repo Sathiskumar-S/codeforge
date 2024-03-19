@@ -40,7 +40,7 @@ const handlerComposite = (fn: any) => {
 
 export const composite: Problem = {
 	id: "composite",
-	title: "14. Composite",
+	title: "13. Composite",
 	problemStatement: `<p class='mt-3'>
     Given a number N, print 'yes' if it is composite else print 'no'
 

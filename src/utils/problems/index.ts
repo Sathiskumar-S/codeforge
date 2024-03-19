@@ -7,7 +7,7 @@ import { validParentheses } from "./valid-parentheses";
 import { containerwithmostwater } from "./container-with-most-water";
 import { mergeintervals } from "./merge-intervals";
 import {maximumdepthofbinarytree} from "./maximum-depth-of-binary-tree" ;
-import {besttimetobuyandsellstock} from "./best-time-to-buy-and-sell-stock";
+
 import { subset } from "./subsets";
 import { minimumelement } from "./minimum-element";
 import { negative } from "./first-negative-integer";
@@ -28,7 +28,7 @@ export const problems: ProblemMap = {
 	"container-with-most-water": containerwithmostwater,
 	"merge-intervals": mergeintervals,
 	"maximum-depth-of-binary-tree": maximumdepthofbinarytree,
-	"best-time-to-buy-and-sell-stocks": besttimetobuyandsellstock,
+	
 	"subsets": subset,
 	"minimum-element": minimumelement,
 	"first-negative-integer": negative,

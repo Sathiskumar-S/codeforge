@@ -37,7 +37,7 @@ const handlerMinimumElement = (fn: any) => {
 
 export const minimumelement: Problem = {
 	id: "minimum-element",
-	title: "11. MinimumElement Without Sorting",
+	title: "10. MinimumElement Without Sorting",
 	problemStatement: `<p class='mt-3'>
 	Pk finds it difficult to judge the minimum element in the list of elements given to him. Your task is to develop the algorithm in order to find the minimum element.<br>
   <em>Note:Don’t use sorting</em> <br>

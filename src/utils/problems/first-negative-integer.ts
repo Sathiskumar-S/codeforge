@@ -37,7 +37,7 @@ const handlerNegative = (fn: any) => {
 
 export const negative: Problem = {
 	id: "first-negative-integer",
-	title: "12. First negative integer",
+	title: "11. First negative integer",
 	problemStatement: `<p class='mt-3'>
     Given an array of integers, find the index of the first negative integer. If there are no negative integers, return -1.<br>
    

@@ -35,7 +35,7 @@ const handlerSubset = (fn: any) => {
 
 export const subset: Problem = {
 	id: "subset",
-	title: "7. subset",
+	title: "9. subset",
 	problemStatement: `<p class='mt-3'>
     Given an integer array nums that may contain duplicates, return all possible subsets (the power set).<br>
   <em>The solution set must not contain duplicate subsets. Return the solution in any order.</em> 

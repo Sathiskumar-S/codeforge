@@ -47,7 +47,7 @@ const handlerTriangle = (fn: any) => {
 
 export const triangle: Problem = {
 	id: "area-of-triangle",
-	title: "13. Area of Triangle",
+	title: "12. Area of Triangle",
 	problemStatement: `<p class='mt-3'>
     Given base(B) and height(H) of a triangle find its area.<br>
   <em>Input Size : N <= 1000000.</em> 

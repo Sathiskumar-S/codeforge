@@ -37,7 +37,7 @@ const handlerBetweenNumber = (fn: any) => {
 
 export const betweennumber: Problem = {
 	id: "between-number",
-	title: "15. Between Number",
+	title: "14. Between Number",
 	problemStatement: `<p class='mt-3'>
     Given 3 numbers N , L and R. Print 'yes' if N is between L and R else print 'no'.
   

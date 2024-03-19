@@ -72,28 +72,21 @@ export const problems : Problem[] = [
         order: 8,
         videoId: "",
     },
-    {
-        id: "best-time-to-buy-and-sell-stock",
-        title: "Best Time to Buy and Sell Stock",
-        difficulty: "Easy",
-        category: "Array",
-        order: 9,
-        videoId: "",
-    },
+    
     {
         id: "subsets",
         title: "Subsets",
         difficulty: "Medium",
         category: "Array",
-        order: 10,
+        order: 9,
         videoId: "",
     },
     {
         id: "minimum-element",
         title: "MinimumElement Without Sorting",
         difficulty: "Medium",
-        category: "Backtracking",
-        order: 11,
+        category: "Array",
+        order: 10,
         videoId: "",
     },
     {
@@ -101,7 +94,7 @@ export const problems : Problem[] = [
         title: "First negative integer",
         difficulty: "Medium",
         category: "Backtracking",
-        order: 12,
+        order: 11,
         videoId: "",
     },
     {
@@ -109,7 +102,7 @@ export const problems : Problem[] = [
         title: "Area of Triangle",
         difficulty: "Easy",
         category: "Number",
-        order: 13,
+        order: 12,
         videoId: "",
     },
     {
@@ -117,7 +110,7 @@ export const problems : Problem[] = [
         title: "Composite",
         difficulty: "Easy",
         category: "Number",
-        order: 14,
+        order: 13,
         videoId: "",
     },
     {
@@ -125,7 +118,7 @@ export const problems : Problem[] = [
         title: "Between Number",
         difficulty: "Easy",
         category: "Number",
-        order: 15,
+        order: 14,
         videoId: "",
     },
 
