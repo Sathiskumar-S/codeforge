@@ -22,7 +22,7 @@ export const problems : Problem[] = [
         difficulty: "Hard",
         category: "Linked List",
         order: 2,
-        videoId: "",
+        videoId: "1s_PwSyye8s",
     },
     {
         id: "jump-game",
@@ -67,7 +67,7 @@ export const problems : Problem[] = [
     {
         id: "maximum-depth-of-binary-tree",
         title: "Maximum Depth of Binary Tree",
-        difficulty: "Easy",
+        difficulty: "Medium",
         category: "Tree",
         order: 8,
         videoId: "",
