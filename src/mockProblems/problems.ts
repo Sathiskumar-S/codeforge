@@ -121,5 +121,13 @@ export const problems : Problem[] = [
         order: 14,
         videoId: "",
     },
+    {
+        id: "shortest-word-distance",
+        title: "Shortest Word Distance",
+        difficulty: "Medium",
+        category: "Array",
+        order: 15,
+        videoId: "",
+    },
 
 ]

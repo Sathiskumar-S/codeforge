@@ -14,6 +14,7 @@ import { negative } from "./first-negative-integer";
 import { triangle } from "./area-of-triangle";
 import { composite } from "./composite";
 import { betweennumber } from "./between-number";
+import { sdw } from "./shortest-word-distance";
 
 interface ProblemMap {
 	[key: string]: Problem;
@@ -34,6 +35,7 @@ export const problems: ProblemMap = {
 	"first-negative-integer": negative,
 	"area-of-triangle": triangle,
 	"composite": composite,
-	"between-number": betweennumber
+	"between-number": betweennumber,
+	"shortest-word-distance": sdw,
 
 };
