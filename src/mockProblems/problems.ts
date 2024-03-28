@@ -129,5 +129,13 @@ export const problems : Problem[] = [
         order: 15,
         videoId: "",
     },
+    {
+        id: "classiffy-triangle",
+        title: "Classify Triangle by length",
+        difficulty: "Medium",
+        category: "Number",
+        order: 16,
+        videoId: "",
+    },
 
 ]
