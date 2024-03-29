@@ -97,6 +97,6 @@ export const sdw: Problem = {
 </li>`,
 	handlerFunction: handlerSDW,
 	starterCode: starterSDW,
-	order: 1,
+	order: 15,
 	starterFunctionName: "function sdw(",
 };

@@ -68,6 +68,6 @@ export const classifytriangle: Problem = {
 </li>`,
 	handlerFunction: handlerClassifyTriangle,
 	starterCode: starterClassifyTriangle,
-	order: 1,
+	order: 16,
 	starterFunctionName: "function classifytriangle(",
 };

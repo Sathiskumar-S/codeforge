@@ -69,6 +69,6 @@ export const betweennumber: Problem = {
 </li>`,
 	handlerFunction: handlerBetweenNumber,
 	starterCode: starterBetweenNumber,
-	order: 1,
+	order: 14,
 	starterFunctionName: "function betweennumber(",
 };

@@ -16,6 +16,7 @@ import { composite } from "./composite";
 import { betweennumber } from "./between-number";
 import { sdw } from "./shortest-word-distance";
 import { classifytriangle } from "./classiffy-triangle";
+import { fauemail } from "./fauemail";
 
 interface ProblemMap {
 	[key: string]: Problem;
@@ -39,5 +40,6 @@ export const problems: ProblemMap = {
 	"between-number": betweennumber,
 	"shortest-word-distance": sdw,
 	"classiffy-triangle": classifytriangle,
+	"fauemails": fauemail,
 
 };

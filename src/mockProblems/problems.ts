@@ -137,5 +137,13 @@ export const problems : Problem[] = [
         order: 16,
         videoId: "",
     },
+    {
+        id: "fauemail",
+        title: "Find All Unique Domains In Email",
+        difficulty: "Medium",
+        category: "Array",
+        order: 17,
+        videoId: "",
+    },
 
 ]

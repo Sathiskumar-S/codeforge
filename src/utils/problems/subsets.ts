@@ -66,6 +66,6 @@ export const subset: Problem = {
 </li>`,
 	handlerFunction: handlerSubset,
 	starterCode: starterSubset,
-	order: 1,
+	order: 9,
 	starterFunctionName: "function subset(",
 };

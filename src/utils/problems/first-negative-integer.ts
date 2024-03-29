@@ -66,6 +66,6 @@ export const negative: Problem = {
 </li>`,
 	handlerFunction: handlerNegative,
 	starterCode: starterNegative,
-	order: 1,
+	order: 11,
 	starterFunctionName: "function negative(",
 };

@@ -68,6 +68,6 @@ export const composite: Problem = {
 </li>`,
 	handlerFunction: handlerComposite,
 	starterCode: starterComposite,
-	order: 1,
+	order: 13,
 	starterFunctionName: "function composite(",
 };

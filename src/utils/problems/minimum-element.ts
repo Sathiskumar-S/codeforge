@@ -75,6 +75,6 @@ export const minimumelement: Problem = {
 </li>`,
 	handlerFunction: handlerMinimumElement,
 	starterCode: starterMinimumElement,
-	order: 1,
+	order: 10,
 	starterFunctionName: "function minimumelement(",
 };

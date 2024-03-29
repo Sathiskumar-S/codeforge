@@ -78,6 +78,6 @@ export const triangle: Problem = {
 </li>`,
 	handlerFunction: handlerTriangle,
 	starterCode: starterTriangle,
-	order: 1,
+	order: 12,
 	starterFunctionName: "function triangle(",
 };

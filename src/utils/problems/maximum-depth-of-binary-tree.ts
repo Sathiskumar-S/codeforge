@@ -82,6 +82,6 @@ export const maximumdepthofbinarytree: Problem = {
 </li>`,
 	handlerFunction: handlerMaximumDepthofbinarytree,
 	starterCode: starterCodeMaximumDepthofbinarytree,
-	order: 1,
+	order: 8,
 	starterFunctionName: "function maximumdepthofbinarytree(",
 };
