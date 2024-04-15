@@ -17,6 +17,9 @@ import { betweennumber } from "./between-number";
 import { sdw } from "./shortest-word-distance";
 import { classifytriangle } from "./classiffy-triangle";
 import { fauemail } from "./fauemail";
+import { hs } from "./highest-salary";
+import { hastag } from "./hastag";
+import { purchase } from "./friday-purchase";
 
 interface ProblemMap {
 	[key: string]: Problem;
@@ -41,5 +44,7 @@ export const problems: ProblemMap = {
 	"shortest-word-distance": sdw,
 	"classiffy-triangle": classifytriangle,
 	"fauemails": fauemail,
-
+	"highest-salary": hs,
+	"hastag": hastag,
+	"friday-purchase": purchase,
 };

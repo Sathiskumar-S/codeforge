@@ -145,5 +145,29 @@ export const problems : Problem[] = [
         order: 17,
         videoId: "",
     },
+    {
+        id: "highest-salary",
+        title: "Highest Salaries Difference",
+        difficulty: "Medium",
+        category: "Number",
+        order: 18,
+        videoId: "",
+    },
+    {
+        id: "hastag",
+        title: "Find Trending Hashtag",
+        difficulty: "Hard",
+        category: "String Manipulation",
+        order: 19,
+        videoId: "",
+    },
+    {
+        id: "friday-purchase",
+        title: "Friday Purchase",
+        difficulty: "Hard",
+        category: "Array",
+        order: 20,
+        videoId: "",
+    },
 
 ]
